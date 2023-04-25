@@ -1,3 +1,4 @@
+import "./globals.css";
 import { Noto_Sans_JP } from "next/font/google";
 
 export const metadata = {
