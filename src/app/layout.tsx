@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Noto_Sans_JP } from "next/font/google";
+import Header from "./Header";
 
 export const metadata = {
   title: "Create Next App",
@@ -15,7 +16,10 @@ const NotoSansJP = Noto_Sans_JP({
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
-      <body className={NotoSansJP.className}>{children}</body>
+      <body className={NotoSansJP.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
