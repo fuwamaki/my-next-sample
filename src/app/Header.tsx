@@ -33,7 +33,7 @@ const Header: React.FC = () => {
               FAQ
             </Link>
             <Link
-              href="/"
+              href="/settings"
               className="text-gray-600 hover:text-pink-500 active:text-pink-700 text-lg font-semibold transition duration-100"
             >
               Setting
