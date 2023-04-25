@@ -21,7 +21,7 @@ const Header: React.FC = () => {
           {/* 画面幅が768px未満の場合は非表示 */}
           <nav className="hidden md:flex gap-12">
             <Link
-              href="/"
+              href="/notes"
               className="text-gray-600 hover:text-pink-500 active:text-pink-700 text-lg font-semibold transition duration-100"
             >
               Memo
